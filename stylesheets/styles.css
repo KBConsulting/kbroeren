@@ -2,11 +2,137 @@
   font-family: 'montserratbold';
   src: url('./fonts/Montserrat-Bold.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'montserratlite';
+  src: url('./fonts/Montserrat-Light.ttf') format('truetype');
+}
 
-.mainnavigation {
-  background-color: rgba(0,0,0,1)
+a {
+    /* text-decoration: none; */
+    color: white;
+    fill: white;
+}
+
+body {
+  background-color: rgba(10,10,10,1);
+}
+
+h1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: montserratbold;
+  font-size: 36px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+h4 {
+  color: white;
+  font-family: montserratlite;
+  font-style: italic;
+  font-size: 12px;
+  padding: 0px;
+  padding-left: 10px;
+}
+
+h5 {
+  color: white;
+  font-family: montserratlite;
+  font-size: 10px;
+  padding: 0px;
+  padding-left: 10px;
+}
+
+img {
+  padding: 10px;
+}
+img:hover {
+  background-color: rgba(0,0,0,1);
+}
+
+figure.item {
+  vertical-align: top;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  /* text-align: center; */
+  width: 120px;
+  padding: 15px;
+
+}
+
+.no-ul {
   text-decoration: none;
-  text-tranform: uppercase;
+}
+.uppertext {
+  color: white;
+  font-family: montserratlite;
+  font-size: 23px;
+  padding: 0px;
+  padding-left: 10px;
+}
+
+.lowertext {
+  color: white;
+  font-family: montserratlite;
+  font-size: 23px;
+  padding: 0px;
+  padding-left: 10px;
+}
+
+.figure-list {
+  padding: 0px;
+  padding-top: 0px;
+  display:  flex;
+  flex-direction: row;
+  background-color: rgba(10,10,10,1);
+
+}
+
+.navbar-list {
+  padding: 0px;
+  padding-top: 0px;
+  display:  flex;
+  flex-direction: row;
+  background-color: rgba(10,10,10,1);
+
+}
+
+.navbar-item {
+  display: inline;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  font-family: montserratbold;
+  font-size: 18px;
+  color: white;
+
+}
+
+.navbar-item:hover {
+  background-color: rgba(0,0,0,1);
+}
+
+.socialNB-list {
+  padding: 5px;
+  padding-top: 15px;
+  display:  flex;
+  flex-direction: row;
+  background-color: rgba(10,10,10,1);
+
+}
+
+.socialNB-item {
+  display: inline;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px
+
+}
+
+.caption {
+  display: block;
+  text-align: center;
+  font-family: montserratlite;
+  font-size: 12px;
 }
