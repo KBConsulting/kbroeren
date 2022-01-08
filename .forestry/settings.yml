@@ -7,12 +7,11 @@ sections:
 - type: document
   path: now.html
   label: now
-  match: "**/*"
 - type: document
   path: index.html
   label: index
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: img
+public_path: "/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
